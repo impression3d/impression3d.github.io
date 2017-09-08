@@ -4,7 +4,7 @@ title: Preface . Frequently Asked Questions
 permalink: /docs/preface/frequently-asked-questions
 ---
 
-### Frequently Asked Questions
+### {{ page.title }}
 
 ***
 
