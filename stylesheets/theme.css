@@ -1,0 +1,151 @@
+body {
+        padding-top: 70px;
+        background-color: white;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+}
+
+a {
+  color: burlywood;
+}
+
+a:hover {
+  color: green;
+}
+
+footer {
+  padding: 50px 0;
+}
+
+p.copyright {
+  margin: 15px 0 0;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.badge-feature {
+  background-color: burlywood;
+}
+
+code {
+  border-radius: 0px;
+}
+
+.highlight {
+  font-family: "monaco, Consolas, Lucida Console, monospace";
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 18.5667px;
+  border-radius: 0px;
+  border-top-width: 2px;
+  border-bottom-width: 1px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  background-color: #f8f8f8;
+}
+
+.doc-outline li {
+  margin: 20px 0 0;
+}
+
+.doc-outline li a {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.doc-outline li .active {
+  background-color: burlywood;
+  color: white;
+}
+
+.doc-outline .doc-header {
+  margin-bottom: 14px;
+}
+
+.btn-donation {
+  background: burlywood;
+  color: white;
+}
+
+.navbar-default {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav .btn-donation a {
+  color: white;
+}
+
+.navbar-default .navbar-nav .btn-donation :hover {
+  background: #f8f8f8;
+}
+
+/* BLOG */
+.pagination {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.post-content {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post-cloud {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@media (min-width:1024px){
+  .blog-sidebar {
+    position: fixed;
+    top: 50px;
+    bottom: 0px;
+    left: 60px;
+    padding-right: 50px;
+    overflow-y: scroll;
+  }
+}
+
+.blog-outline li {
+	margin: 20px 0 0;
+}
+
+.blog-outline li a {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+}
+
+.blog-outline li a:hover {
+	text-decoration-line:underline;
+	background-color: transparent;
+}
+
+.blog-outline .blog-header {
+	margin-bottom: 14px;
+}
+
+.blog-outline-tag li {
+	margin: 20px 0 0;
+}
+
+.blog-outline-tag li a {
+	margin: 2px;
+}
+
+.blog-outline-tag .blog-header-tag {
+	margin-bottom: 14px;
+}

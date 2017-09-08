@@ -1,0 +1,61 @@
+---
+layout: blog
+---
+
+<article {% if page.feature-img %}class="feature-image"{% endif %}>
+    <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+        <h3 class="title">{{ page.title }}</h3>
+        <p class="meta">
+        {{ page.date | date: "%B %-d, %Y" }}
+        {% if page.author %} - {{ page.author }}{% endif %}
+        </p>
+    </header>
+    <section class="post-content">{{ content }}</section>
+</article>
+<div class="pagination"></div>
+<div>
+    Categories: 
+    {% for name in page.categories %}
+    <a href="/archive/category/{{ name }}">{{ name }}</a>
+    {% if name != page.categories.last %}
+    , 
+    {% endif %}
+    {% endfor %}
+    
+    &nbspTags:
+    {% for name in page.tags %}
+    <a href="/archive/tag/{{ name }}">{{ name }}</a>
+    {% if name != page.tags.last %}
+    , 
+    {% endif %}
+    {% endfor %}
+</div>
+<hr>
+<div class="pagination"></div>
+<div class="row">
+    <div class="col-md-6">
+    {% if page.previous.url %}
+        <a href="{{ page.previous.url }}">
+            <span>
+                <i class="glyphicon glyphicon-chevron-left"></i> Previous
+            </span>
+            <span>{{ page.previous.title }}</span>
+        </a>
+    {% endif %}
+    </div>
+    <div class="col-md-6 text-right">
+    {% if page.next.url %}
+        <a href="{{ page.next.url }}">
+            <span>{{ page.next.title }}</span>
+            <span>
+                Next <i class="glyphicon glyphicon-chevron-right"></i>
+            </span>
+        </a>
+    {% endif %}
+    </div>
+</div>
+
+<!-- Disqus -->
+{% if site.disqus_shortname %}
+{% include disqus.html %}
+{% endif %}

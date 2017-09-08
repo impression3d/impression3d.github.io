@@ -1,0 +1,24 @@
+<ul class="nav nav-pills nav-stacked blog-outline">
+  <li role="presentation" class="blog-header"><strong>Recent Posts</strong></li>
+  {% for post in site.posts limit:3 %}
+  <li role="presentation"><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+
+<ul class="nav nav-pills nav-stacked blog-outline">
+  <li role="presentation" class="blog-header"><strong>Categories</strong></li>
+  {% for category in site.categories %}
+  <li role="presentation"><a href="/archive/category/{{ category[0] }}">{{ category[0] }} <span class="badge">{{ category[1].size }}</span></a></li>
+  {% endfor %}
+</ul>
+
+<ul class="nav nav-pills nav-stacked blog-outline-tag">
+  <li role="presentation" class="blog-header-tag"><strong>Tags</strong></li>
+  <li role="presentation">
+    <div>
+      {% for tag in site.tags %}
+      <a href="/archive/tag/{{ tag[0] }}">{{ tag[0] }}</a>
+      {% endfor %}
+    </div>
+  </li>
+</ul>

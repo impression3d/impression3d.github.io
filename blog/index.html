@@ -1,0 +1,53 @@
+---
+layout: blog
+title: Blog
+---
+
+<div>  
+  <div>
+    {% for post in paginator.posts %}
+    <div>
+      <header>
+        <h3>
+          <a class="post-title" href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+        <p>
+          {{ post.date | date: "%B %-d, %Y" }}
+        </p>
+      </header>
+      <div>
+        {{ post.excerpt }}
+        <a href="{{ post.url }}">
+          Continue reading
+        </a>
+      </div>
+    </div>
+    <hr />
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+        Newer
+        </a>
+        {% endif %}
+        </div>
+        <div class="col-md-6 text-right">
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+        Older
+        <i class="glyphicon glyphicon-chevron-right"></i>
+        </a>
+        {% endif %}
+        </div>
+    </div>
+  {% endif %}
+</div>
