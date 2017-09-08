@@ -6,7 +6,7 @@ categories: Announcements
 tags: Hi
 ---
 
-Hi, it's official blog for <code>Impression</code>, a C# cross platform game toolkit to create 2D and 3D games. Currently, it runs on all major platforms like desktop and mobile.
+Hi, it's official blog for <code>Impression</code>, a C# cross platform game toolkit to create 2D and 3D games. Currently, <code>Impression</code> runs on all major platforms like desktop and mobile.
 
 On future occasions, this blog will provide information on the development of impression3d. For example the launch of the official release, serial tutorials, as well as all the problems and solutions encountered.
 
