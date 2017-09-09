@@ -104,4 +104,4 @@ If successfully, an empty <span class="badge badge-feature">burlywood color</spa
 <br>
 <br>
 <h4 class="text-center">Now, It's Your Turn!</h4>
-<p class="text-center"><a href="/docs/preface/introduction" target="_blank">Read the docs</a>, <a href="https://github.com/impression3d/Impression.Examples" target="_blank">explore the examples</a>, and create your game.</p>
+<p class="text-center"><a href="{{ "docs/preface/introduction" | prepend: site.baseurl }}" target="_blank">Read the docs</a>, <a href="https://github.com/impression3d/Impression.Examples" target="_blank">explore the examples</a>, and create your game.</p>

@@ -4,8 +4,8 @@ layout: blog
 
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
     <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
-        <h3 class="title">{{ page.title }}</h3>
-        <p class="meta">
+        <h3>{{ page.title }}</h3>
+        <p>
         {{ page.date | date: "%B %-d, %Y" }}
         {% if page.author %} - {{ page.author }}{% endif %}
         </p>
