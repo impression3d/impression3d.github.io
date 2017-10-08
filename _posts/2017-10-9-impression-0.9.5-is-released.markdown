@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Impression 0.9.5 is Released"
-date:   2017-07-5 13:46:40 +0700
+date:   2017-10-9 02:00:40 +0700
 categories: Announcements
 tags: Release
 ---
