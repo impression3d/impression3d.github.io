@@ -22,9 +22,9 @@ Yay, I'm proud to announce latest Impression released version.
 ##### Examples
 1.  Fixing example projects structure and documentation in Github, [see more](https://github.com/impression3d)
 
-#### Official Discussion for Community
-I hope it will be useful for the community to explore and share things about Impression.
+#### Official Discussion
+I just launch the [official discussion](http://discussion.impression.id) for community and I hope it will be useful for the community to explore and share things about Impression.
 
-#### Documentation Progress
+#### Documentation
 I'm working hard to complete basic documentation. Please use [official discussion](http://discussion.impression.id) if you got issues about Impression.
 
