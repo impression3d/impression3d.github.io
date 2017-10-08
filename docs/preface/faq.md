@@ -21,10 +21,10 @@ On free time.
 Currently just [@pratamabayu](https://github.com/pratamabayu).
 
 #### How do I find discussion related for this project?
-Find at [stackoverflow](https://stackoverflow.com/questions/tagged/Impression) or [gamedev.stackexchange](https://gamedev.stackexchange.com/questions/tagged/Impression).
+Find at [our dedicated forum](http://discussion.impression.id), [stackoverflow](https://stackoverflow.com/questions/tagged/Impression) or [gamedev.stackexchange](https://gamedev.stackexchange.com/questions/tagged/Impression).
 
 #### Have questions about this project?
-Please post them at [stackoverflow](https://stackoverflow.com) or [gamedev.stackexchange](https://gamedev.stackexchange.com) and tag your question with <code>Impression</code>.
+Please post them at [our dedicated forum](http://discussion.impression.id), or use [stackoverflow](https://stackoverflow.com) or [gamedev.stackexchange](https://gamedev.stackexchange.com) and tag your question with <code>Impression</code>.
 
 #### Have issues or bugs about this project?
 Currently, just contact the mainteners.
