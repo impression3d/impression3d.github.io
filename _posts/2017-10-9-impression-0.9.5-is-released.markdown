@@ -6,7 +6,7 @@ categories: Announcements
 tags: Release
 ---
 
-Yay, I'm proud to announce latest Impression released version 0.9.5.
+Yay, I'm proud to announce latest Impression released version.
 
 ### What's is new?
 #### Animations
