@@ -28,7 +28,7 @@ showSpotlight: false
 paginate: 3
 paginate_path: "/blog/page:num/"
 
-disqus_shortname:
+disqus_shortname: impression-3d
 google_analytics: UA-101294481-1
 
 copyright: © 2017. Impression.
