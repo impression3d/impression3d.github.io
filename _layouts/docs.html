@@ -10,5 +10,11 @@ layout: default
   </div>
   <div class="col-md-9">
     {{ content }}
+    
+    <div class="pagination"></div>
+    <!-- Disqus -->
+    {% if site.disqus_shortname %}
+    {% include disqus.html %}
+    {% endif %}
   </div>
 </div>
