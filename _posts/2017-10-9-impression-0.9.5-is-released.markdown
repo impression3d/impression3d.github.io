@@ -6,7 +6,7 @@ categories: Announcements
 tags: Release
 ---
 
-Yay, I'm proud to announce latest Impression released version.
+Yay, I'm proud to announce latest <code>Impression</code> released version.
 
 #### What's is new?
 ##### Animations
@@ -16,15 +16,9 @@ Yay, I'm proud to announce latest Impression released version.
 1.  Adding <code>DdsImporter</code> to create a <code>TextureCube</code> in <code>TextureImporter</code>
 
 ##### Development Toolkit
-1.  Improving and refactoring <code>ContentBuilder</code> building command, [see more](http://impression.id/docs/content-pipeline/building). 
-2.  Adding <code>ProjectBuilder</code> to create cross-platform game project easly, [see more](http://impression.id/docs/getting-started/basic-usage).
+1.  Improving and refactoring <code>ContentBuilder</code> building command, [see more](/docs/content-pipeline/building). 
+2.  Adding <code>ProjectBuilder</code> to create cross-platform game project easly, [see more](/docs/getting-started/basic-usage).
 
 ##### Examples
 1.  Fixing example projects structure and documentation in Github, [see more](https://github.com/impression3d)
-
-#### Official Discussion
-I just launch the [official discussion](http://discussion.impression.id) for community and I hope it will be useful for the community to explore and share things about Impression.
-
-#### Documentation
-I'm working hard to complete basic documentation. Please use [official discussion](http://discussion.impression.id) if you got issues about Impression.
 

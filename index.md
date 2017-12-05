@@ -4,18 +4,6 @@ title: Made with pleasure but serious. A C# cross platform game toolkit to creat
 permalink: /
 ---
 
-{% if site.showSpotlight == true %}
-<div class="row">
-    <div class="col-md-2"></div>
-    <div class="col-md-8">
-        <div class="alert alert-danger" role="alert">
-            We are working hard to complete clean and easly understand documentation. <a href="https://www.patreon.com/impression" class="alert-link">Support us at Patreon</a>.
-        </div>
-    </div>
-    <div class="col-md-2"></div>
-</div>
-{% endif %}
-
 <div class="jumbotron">
     <h2 class="text-center">Impression</h2>
     <p class="text-center"><img src="https://img.shields.io/nuget/v/Impression.Windows.svg"/></p>
@@ -97,8 +85,8 @@ A C# IDE should be open.
 <br>
 <br>
 <h4 class="text-center">Build and Run</h4>
-<p class="text-center">Still in C# IDE, build and run like other C# projects. <br>
-These action will download some dependencies, but just for in first time only. <br>
+<p class="text-center">On C# IDE, build and run like other C# projects. <br>
+These action will download some dependencies, just first time. <br>
 If successfully, an empty <span class="badge badge-feature">burlywood color</span> game window will appear.</p>
 
 <br>
