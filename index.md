@@ -79,7 +79,7 @@ run <code>mono {path-to}\ProjectBuilder.exe new YourProjectName</code>
 <br>
 <br>
 <h4 class="text-center">Open Project</h4>
-<p class="text-center">Double click <code>YourProjectName.sln</code> on <code>YourProjectName</code> directory. <br>
+<p class="text-center">Open <code>YourProjectName.sln</code> on <code>YourProjectName</code> directory. <br>
 A C# IDE should be open.
 </p>
 <br>
